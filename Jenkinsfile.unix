@@ -19,8 +19,7 @@
 */
 
 node(jenkins_build_node) {
-    agent any 
-
+    checkout scm
     stages {
         stage('Build'){
             steps {
