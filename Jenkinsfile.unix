@@ -18,7 +18,7 @@
 *
 */
 
-pipeline {
+node(jenkins_build_node) {
     agent any 
 
     stages {
