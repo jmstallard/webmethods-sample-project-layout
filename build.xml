@@ -30,9 +30,10 @@
         	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="deploy" inheritAll="true"/>
 	</target>
 
-        <!--target name="test" depends="">
-        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="test" inheritAll="true"/>
-	</target-->
+        <target name="test" depends="">
+        	<!--ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="test" inheritAll="true"/-->
+		<echo	message="Test step skipped for now"/>
+	</target>
 	
 </project>
 
