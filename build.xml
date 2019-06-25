@@ -31,7 +31,7 @@
 	</target>
 
         <target name="test" depends="">
-        	<!--ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="test" inheritAll="true"/-->
+        	<ant dir="${SAG_CI_HOME}" antfile="${SAG_CI_HOME}/build.xml" target="test" inheritAll="true"/>
 		<echo	message="Test step skipped for now"/>
 	</target>
 	
